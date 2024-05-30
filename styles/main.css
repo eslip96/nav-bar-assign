@@ -1,0 +1,62 @@
+.body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.main-page-container {
+  height: 100%;
+  width: 100%;
+  overflow-x: none;
+}
+
+.nav-bar-container {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(tan, pink);
+  position: sticky;
+  box-shadow: 0px 0px 12px 1px black;
+  border-radius: 5px;
+}
+
+nav-bar-wrapper {
+  margin: 0 15px;
+}
+
+.nav-bar-wrapper a {
+  margin: 0 20px;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+}
+
+.hero-container {
+  width: 100%;
+}
+
+.hero-wrapper {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-container .hero-wrapper {
+  display: inline;
+  position: relative;
+  width: 7%;
+}
+
+h2 {
+  width: 40%;
+}
+
+.hero-container .hero-wrapper p {
+  width: 28%;
+}
+
+.hero-container .hero-wrapper img {
+  box-shadow: 0px 0px 12px 1px black;
+  display: inline-block;
+  margin: 0 auto;
+}
